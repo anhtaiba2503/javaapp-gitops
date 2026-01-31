@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: tritran95/javaapp:latest
+        image: tritran95/javaapp:5ccb7f4
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
